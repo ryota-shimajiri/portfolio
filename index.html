@@ -1,18 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+</style>
 <head>
-<meta charset="UTF-8">
-<title>Shimajiriのポートフォリオ</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.4/marx.css">
+  <script src="js/lib/jquery-3.4.1.min.js"></script>
+  <script src="js/lib/skrollr.js"></script>
+  <meta charset="UTF-8">
+  <title>Shimajiriのポートフォリオ</title>
+  <style>
+    body {
+        background-color: lightgray;
+    }
+    
+    .box {
+        width: 600px;
+        height: 300px;
+        margin: 500px auto;
+        text-align: center;
+        background-color: white;
+        border-radius: 20px;
+    }
+  </style>
 </head>
 <body>
-<main>
-  <h1>Shimajiriのポートフォリオ</h1>
-  <a href="https://qiita.com/shimajiri"><button>Qiitaはこちら</button></a>
-</main>
+<div class="box" data-0="opacity:0;" 
+  data-bottom-top="transform:scale(0) rotate(0deg);" 
+  data-center-center="transform:scale(1) rotate(360deg); opacity:1;" 
+  data-top-top="opacity:1;" 
+  data-top-bottom="opacity:0;">
+  <h2>THIRD</h2>
+</div>
+  <script>var s = skrollr.init();</script>
 </body>
+
 </html>
-<script src="js/skrollr.min.js"></script>
-  <script>
-    let s = skrollr.init();
-  </script>
