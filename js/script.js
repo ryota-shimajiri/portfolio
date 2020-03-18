@@ -24,7 +24,7 @@ $(function(){
   $code.html(cursor);
   $(window).scroll(function () {
     $scroll = $(this).scrollTop();
-    if ($scroll < 4000) {
+    if ($scroll < 20000) {
       $code.html(codeText.substring(0, Math.round($scroll/6)) + cursor);
       var currentCode = $code.text();
       var lines = currentCode.match(/\n/g);
