@@ -18,7 +18,7 @@ $(function(){
   var $code = $('code#code');
   var $lineNum = $('#line-num');
   var $colNum = $('#col-num');
-  var commentLineNum = $('code#comment').text().match(/\n/g).length + 3;
+  var commentLineNum = $('code#comment').text().match(/\n/g).length + 2;
   var codeText = hljs.highlightAuto($code.text()).value;
   var cursor = '<span id="cursor">';
   $code.html(cursor);
