@@ -1403,7 +1403,7 @@ body {
         #home .side dl dd.file {
           padding-left: 43px; }
         #home .side dl dd.current {
-          background-color: #2095F0;
+          background-color: #424242;
           color: #FFF; }
         #home .side dl dd i {
           margin-right: 7px;
@@ -1546,12 +1546,12 @@ body {
   bottom: -53px;
   left: 0;
   width: 100%;
-  background-color: #3C3F42;
+  background-color: #2095F0;
   overflow: hidden;
   box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.15); }
   #global_navi .editor_foot {
     font-family: 'Open Sans', sans-serif;
-    color: #949597;
+    color: #FFF;
     font-size: 11px;
     margin: 3px 15px;
     zoom: 1; }
