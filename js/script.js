@@ -1,6 +1,6 @@
 $(function(){
   $('#close').click(function(){
-    if(window.confirm('保存されていません！閉じてもよろしいですか？')){
+    if(window.confirm('portfolio.py に加えた変更を保存しますか?')){
       var nvua = navigator.userAgent;
       if(nvua.indexOf('MSIE') >= 0){
         if(nvua.indexOf('MSIE 5.0') == -1) {
@@ -32,35 +32,5 @@ $(function(){
       var colText = currentCode.match(/(?:^|\n)(.*?)$/)[1];
       $colNum.text(colText ? colText.length : 0);
     }
-  });
-
-  // menu link scroll
-  var datas = document.getElementById('navi_marker').dataset;
-  var i = 0, j = 0;
-  var menu = ['about', 'skills', 'works', 'contact'];
-  var offsets = [];
-  var set = function(to, offset){
-    $('a[href^=#' + to + ']').click(function() {
-      $('html,body').animate({ scrollTop: offset }, 1000);
-      return false;
-    });
-  }
-  set('home', 0);
-  for(key in datas){
-    if(i++%2){
-      set(menu[j++], key);
-      offsets.push(key);
-    }
-  }
-
-  // ハッシュで直リンク
-  if(location.hash){
-    var key = menu.indexOf(location.hash.replace('#', ''));
-    $('html,body').animate({ scrollTop: offsets[key] }, 1000);
-  }
-
-  // worksリンク反応しない問題回避
-  $('#work_list li').on('click', function(){
-    window.open($(this).find('a').attr('href'));
   });
 });
