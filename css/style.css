@@ -22,42 +22,29 @@
   src: url(font/migu-1m-regular.woff) format("woff"); }
 
 #qiita {
-  color:#4cb10d;
-}
+  color:#4cb10d; }
 #python {
-  color:#00bfff;
-}
+  color:#00bfff; }
 #javascript {
-  color:#ffd700;
-}
+  color:#ffd700; }
 #java {
-  color:#ff4500;
-}
+  color:#ff4500; }
 #ruby {
-  color:#dc143c;
-}
+  color:#dc143c; }
 #perl {
-  color:#4682b4;
-}
+  color:#4682b4; }
 #php {
-  color:#b0c4de;
-}
+  color:#b0c4de; }
 #html5 {
-  color:#ff6347;
-}
+  color:#ff6347; }
 #css3 {
-  color:#1e90ff;
-}
-
+  color:#1e90ff; }
 #android {
-  color:#32cd32;
-}
+  color:#32cd32; }
 #company {
-  color:#ffd700;
-}
+  color:#ffd700; }
 #instagram {
-  color:#ff4500;
-}
+  color:#ff4500; }
 
 .float_left {
   float: left; }
@@ -218,7 +205,7 @@ body {
   bottom: -53px;
   left: 0;
   width: 100%;
-  background-color: #2095F0;
+  background-color: #1e90ff;
   overflow: hidden;
   box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.15); }
   #global_navi .editor_foot {
