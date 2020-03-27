@@ -183,7 +183,7 @@ body {
           background: transparent; }
           #home .main .body pre code #cursor {
             margin: 0 10px 0 0;
-            border-right: 1px white solid; }
+            border-right: 2px white solid; }
 
 @-webkit-keyframes blink {
   from {
