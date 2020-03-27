@@ -25,4 +25,11 @@ $(function(){
       colNum.text(colText ? colText.length : 0);
     }
   });
+
+  $('#close').click(function(){
+    if(window.confirm('Do you want to save the changes you made to portfolio.py?\nYour changes will be lost if you dont save them.')){
+      window.close();
+    }
+
+  });
 });

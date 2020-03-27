@@ -114,6 +114,10 @@ body {
         color: #c0c0c0;
         background-color: #424242;
         padding-left: 10px; }
+      #home .side dl dt #outline {
+        position:absolute;
+        bottom: 0;
+      }
       #home .side dl dd {
         font-size: 11px;
         color: #DADADA;
