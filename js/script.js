@@ -18,6 +18,7 @@ $(function(){
       const currentCode = code.text(),
             // 改行で行数を取得
             lines = currentCode.match(/\n/g),
+            // 現在の文字を取得
             colText = currentCode.match(/(?:^|\n)(.*?)$/)[1];
 
       lineNum.text(commentLineNum + (lines ? lines.length : 0));
