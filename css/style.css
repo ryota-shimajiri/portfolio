@@ -45,6 +45,12 @@
   color:#ffd700; }
 #instagram {
   color:#ff4500; }
+#select_icon {
+  font-size: 1.5em;
+  color:#FFF; }
+#icon {
+  font-size: 1.5em;
+  color:#888888; }
 
 .float_left {
   float: left; }
@@ -87,26 +93,22 @@ body {
   height: 100%;
   zoom: 1;
   z-index: 20; }
-  #home:before,
-  #home:after {
-    display: block;
-    height: 0;
-    visibility: hidden;
-    content: "\0020"; }
-  #home:after {
-    clear: both; }
   #home .menu {
-    position: absolute;
-    font-family: 'Open Sans', sans-serif;
-    left: 0px;
-    background-color: #2d2daa;
-    margin: 0;
-    height: 100%; 
-  }
+      text-align: center;
+      top: 20px;
+      font-family: 'Open Sans', sans-serif;
+      width: 55px;
+      background-color: #39393a;
+      margin: 0;
+      height: 100%;
+      padding-top: 1px;
+    }
+    #home .menu dl dt {
+      margin-bottom: 20px; }
   #home .side {
     position: absolute;
     top: 0;
-    left: 55px;
+    left: 53px;
     font-family: 'Open Sans', sans-serif;
     background-color: #2d2d2d;
     width: 200px;
