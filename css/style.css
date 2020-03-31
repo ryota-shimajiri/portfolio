@@ -95,10 +95,18 @@ body {
     content: "\0020"; }
   #home:after {
     clear: both; }
+  #home .menu {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    left: 0px;
+    background-color: #2d2daa;
+    margin: 0;
+    height: 100%; 
+  }
   #home .side {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 55px;
     font-family: 'Open Sans', sans-serif;
     background-color: #2d2d2d;
     width: 200px;
@@ -142,7 +150,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    left: 200px;
+    left: 250px;
     width: 100%;
     height: 100%;
     overflow: hidden; }
