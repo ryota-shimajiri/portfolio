@@ -10,7 +10,7 @@ $(function(){
   $(window).scroll(function () {
     $scroll = $(this).scrollTop();
 
-    if ($scroll < 10000) {
+    if ($scroll < 12000) {
       let renderCode = codeText.substring(0, Math.round($scroll/6)) + cursor;
       // 一文字ずつ描画する際に"<"だけ表示されるのを防ぐ対応
       code.html(renderCode.replace(/<<span/, '<span'));

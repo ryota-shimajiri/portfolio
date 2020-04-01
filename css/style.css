@@ -65,6 +65,10 @@ h2 {
   font-weight: normal;
   letter-spacing: 10px; }
 
+p {
+  margin-top: 0.1px;
+  margin-bottom: 0.1px; }
+
 a {
   color: #999;
   text-decoration: none;
@@ -95,17 +99,15 @@ body {
   z-index: 20; }
   #home .menu {
       text-align: center;
-      top: 20px;
       font-family: 'Open Sans', sans-serif;
       width: 55px;
       background-color: #39393a;
-      margin: 0;
       height: 100%;
       padding-top: 1px;
     }
     #home .menu dl dt {
       margin-bottom: 20px; }
-  #home .side {
+  #home .directory {
     position: absolute;
     top: 0;
     left: 53px;
@@ -114,39 +116,39 @@ body {
     width: 200px;
     margin: 0;
     height: 100%; }
-    #home .side dl {
+    #home .directory dl {
       line-height: 2;
       cursor: default;
       margin-top: 0; }
-      #home .side dl dt {
+      #home .directory dl dt {
         font-weight: bold;
         font-size: 12px;
         color: #c0c0c0;
         background-color: #424242;
         padding-left: 10px; }
-      #home .side dl dt #outline {
+      #home .directory dl dt #outline {
         position:absolute;
         bottom: 0;
       }
-      #home .side dl dd {
+      #home .directory dl dd {
         font-size: 11px;
         color: #DADADA;
         margin: 0px;
         padding-left: 25px; }
-        #home .side dl dd.file {
+        #home .directory dl dd.file {
           padding-left: 43px; }
-        #home .side dl dd.current {
+        #home .directory dl dd.current {
           background-color: #424242;
           color: #FFF; }
-        #home .side dl dd i {
+        #home .directory dl dd i {
           margin-right: 7px;
           }
-          #home .side dl dd i.fa-file {
+          #home .directory dl dd i.fa-file {
             color: #313437; }
-        #home .side dl dd a:link, #home .side dl dd a:visited, #home .side dl dd a:hover, #home .side dl dd a:active {
+        #home .directory dl dd a:link, #home .directory dl dd a:visited, #home .directory dl dd a:hover, #home .directory dl dd a:active {
           color: #DADADA;
           text-decoration: none; }
-        #home .side dl dd a:hover {
+        #home .directory dl dd a:hover {
           color: #FFFFFF; }
   #home .main {
     position: absolute;
@@ -219,7 +221,7 @@ body {
   bottom: -53px;
   left: 0;
   width: 100%;
-  background-color: #1e90ff;
+  background-color: #0c81f7;
   overflow: hidden;
   box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.15); }
   #global_navi .editor_foot {
