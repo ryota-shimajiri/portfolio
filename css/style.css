@@ -47,10 +47,10 @@
   color:#ff4500; }
 #select_icon {
   font-size: 1.5em;
-  color:#FFF; }
+  color:#ffffff; }
 #icon {
   font-size: 1.5em;
-  color:#888888; }
+  color:#ffffff66; }
 
 .float_left {
   float: left; }
@@ -97,58 +97,66 @@ body {
   height: 100%;
   zoom: 1;
   z-index: 20; }
-  #home .menu {
+  #home .activity_bar {
       text-align: center;
       font-family: 'Open Sans', sans-serif;
       width: 55px;
-      background-color: #39393a;
-      height: 100%;
+      background-color: #333333;
+      height: 88%;
       padding-top: 1px;
     }
-    #home .menu dl dt {
+  #home .setting {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    width: 55px;
+    background-color: #333333;
+    height: 12%;
+    padding-top: 1px;
+  }
+    #home .activity_bar dl dt {
       margin-bottom: 20px; }
-  #home .directory {
+  #home .side_bar {
     position: absolute;
     top: 0;
     left: 53px;
     font-family: 'Open Sans', sans-serif;
-    background-color: #2d2d2d;
+    background-color: #252526;
     width: 200px;
     margin: 0;
     height: 100%; }
-    #home .directory dl {
+    #home .side_bar dl {
       line-height: 2;
       cursor: default;
       margin-top: 0; }
-      #home .directory dl dt {
+      #home .side_bar dl dt {
         font-weight: bold;
         font-size: 12px;
-        color: #c0c0c0;
+        color: #cccccc;
         background-color: #424242;
         padding-left: 10px; }
-      #home .directory dl dt #outline {
+      #home .side_bar dl dt #outline {
         position:absolute;
         bottom: 0;
       }
-      #home .directory dl dd {
+      #home .side_bar dl dd {
         font-size: 11px;
         color: #DADADA;
         margin: 0px;
         padding-left: 25px; }
-        #home .directory dl dd.file {
+        #home .side_bar dl dd.file {
           padding-left: 43px; }
-        #home .directory dl dd.current {
+        #home .side_bar dl dd.current {
           background-color: #424242;
           color: #FFF; }
-        #home .directory dl dd i {
+        #home .side_bar dl dd i {
           margin-right: 7px;
           }
-          #home .directory dl dd i.fa-file {
+          #home .side_bar dl dd i.fa-file {
             color: #313437; }
-        #home .directory dl dd a:link, #home .directory dl dd a:visited, #home .directory dl dd a:hover, #home .directory dl dd a:active {
+        #home .side_bar dl dd a:link, #home .side_bar dl dd a:visited, #home .side_bar dl dd a:hover, #home .side_bar dl dd a:active {
           color: #DADADA;
           text-decoration: none; }
-        #home .directory dl dd a:hover {
+        #home .side_bar dl dd a:hover {
           color: #FFFFFF; }
   #home .main {
     position: absolute;
@@ -160,7 +168,7 @@ body {
     overflow: hidden; }
     #home .main .tabs {
       width: 100%;
-      background: #131416;}
+      background: #252526;}
       #home .main .tabs .tab {
         font-family: 'Open Sans', sans-serif;
         font-size: 11px;
@@ -182,7 +190,7 @@ body {
         position: absolute;
         left: 0;
         width: 45px;
-        color: #c0c0c0;
+        color: #858585;
         text-align: right;
         height: 100%;
         overflow: hidden; }
@@ -215,28 +223,28 @@ body {
   -webkit-animation-direction: normal;
   -webkit-animation-delay: 0s; }
 
-#global_navi {
+#status_bar {
   height: 76px;
   position: absolute;
   bottom: -53px;
   left: 0;
   width: 100%;
-  background-color: #0c81f7;
+  background-color: #007acc;
   overflow: hidden;
   box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.15); }
-  #global_navi .editor_foot {
+  #status_bar .editor_foot {
     font-family: 'Open Sans', sans-serif;
     color: #FFF;
     font-size: 11px;
     margin: 3px 15px;
     zoom: 1; }
-    #global_navi .editor_foot:before,
-    #global_navi .editor_foot:after {
+    #status_bar .editor_foot:before,
+    #status_bar .editor_foot:after {
       display: block;
       height: 0;
       visibility: hidden;
       content: "\0020"; }
-    #global_navi .editor_foot:after {
+    #status_bar .editor_foot:after {
       clear: both; }
-    #global_navi .editor_foot .charset {
+    #status_bar .editor_foot .charset {
       margin-right: 12px; }
