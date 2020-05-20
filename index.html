@@ -79,12 +79,14 @@ Web browser recommended
 Please scroll!
 """</code>
 <code id="code">from datetime import date
+
 class Human:
   def __init__(self):
     self.name = ''
     self.age = 0
     self.gender = 0
     self.job = ''
+
   def calculate_age(self, year, month, day):
     birth = date(year, month, day)
     today = date.today()
@@ -99,6 +101,7 @@ me.name = 'Ryota Shimajiri'
 me.age = me.calculate_age(1992, 4, 13)
 me.gender = 1 #性別(1:男　2:女)
 me.job = 'Back-End Engineer'
+
 print('Nice to meet you')
 </code></pre>
   </div>
