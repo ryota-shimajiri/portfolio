@@ -32,4 +32,17 @@ $(function(){
     }
 
   });
+
+  $('#debug').click(function(){
+    // デバッグアイコン押されたら色を変える
+    const statusBar = document.getElementById('status_bar'),
+          statusBarColor = $("#status_bar").css("background-color");
+    if (statusBarColor == "rgb(0, 122, 204)"){
+      statusBar.style.backgroundColor = "#cc6633";
+    } else {
+      statusBar.style.backgroundColor = "#007acc";
+    }
+
+  });
+
 });

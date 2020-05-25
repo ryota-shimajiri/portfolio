@@ -74,6 +74,10 @@ a {
   text-decoration: none;
   transition: color 0.5s; }
 
+#debug:hover {
+  color: #FFF;
+}
+
 a:hover {
   color: #fff8a9; }
 
@@ -174,7 +178,7 @@ body {
         font-size: 11px;
         text-align: center;  
         color: #FFF;
-        height: 10px;
+        height: 20px;
         width: 100px;
         padding: 7px 9px;
         background-color: #1e1e1e;
