@@ -142,6 +142,9 @@ body {
         position:absolute;
         bottom: 0;
       }
+      #home .side_bar dl dd:hover {
+        background-color: #3a3d41;
+      }
       #home .side_bar dl dd {
         font-size: 11px;
         color: #DADADA;
