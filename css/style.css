@@ -176,6 +176,13 @@ body {
     #home .main .tabs {
       width: 100%;
       background: #252526;}
+    #home .main .current_directory {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+      padding-left: 15px;
+      width: 100%;
+      color: #DADADA;
+      background: #1e1e1e;}  
       #home .main .tabs .tab {
         font-family: 'Open Sans', sans-serif;
         font-size: 11px;
