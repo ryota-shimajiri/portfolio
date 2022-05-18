@@ -27,7 +27,8 @@
 }
 
 #qiita {
-  color: #4cb10d;
+  width: 11px;
+  height: 11px;
 }
 
 #python {
@@ -38,16 +39,23 @@
   color: #ffd700;
 }
 
+#typescript {
+  width: 10px;
+  height: 10px;
+}
+
 #java {
   color: #ff4500;
 }
 
 #ruby {
-  color: #dc143c;
+  width: 10px;
+  height: 10px;
 }
 
 #perl {
-  color: #4682b4;
+  width: 10px;
+  height: 10px;
 }
 
 #php {
@@ -225,6 +233,10 @@ body {
 }
 
 #home .side_bar dl dd i {
+  margin-right: 7px;
+}
+
+#home .side_bar dl dd img {
   margin-right: 7px;
 }
 
