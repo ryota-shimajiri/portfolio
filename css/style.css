@@ -331,23 +331,17 @@ body {
   border-right: 2px white solid;
 }
 
-@-webkit-keyframes blink {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
+#cursor {
+  animation: flash 1s linear infinite;
 }
 
-#cursor {
-  -webkit-animation-name: blink;
-  -webkit-animation-duration: 1.0s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-direction: normal;
-  -webkit-animation-delay: 0s;
+@keyframes flash {
+  0%,35%,75%,100% {
+    opacity: 0;
+  }
+  40%,70% {
+    opacity: 1;
+  }
 }
 
 #status_bar {

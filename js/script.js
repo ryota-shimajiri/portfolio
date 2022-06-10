@@ -26,9 +26,9 @@ $(() => {
             colNum.text(colText ? colText.length : 0);
         }
     });
-
+    
     $('#close').click(() => {
-        if (window.confirm('Do you want to save the changes you made to portfolio.py?\nYour changes will be lost if you dont save them.')) {
+        if (window.confirm('ウインドウを閉じますか\n保存していない場合、変更は失われます。')) {
             window.close();
         }
     });
