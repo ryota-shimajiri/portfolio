@@ -1,1 +1,1 @@
-"# portfolio" 
+# Shimajiri's VScode-style portfolio
