@@ -29,7 +29,7 @@ $(() => {
     
     $('#close').click(() => {
         if (window.confirm('ウインドウを閉じますか\n保存していない場合、変更は失われます。')) {
-            window.close();
+            window.top.close();
         }
     });
 
