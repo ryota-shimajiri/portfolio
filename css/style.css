@@ -26,6 +26,11 @@
   src: url(font/migu-1m-regular.woff) format("woff");
 }
 
+#wantedly {
+  width: 11px;
+  height: 11px;
+}
+
 #qiita {
   width: 11px;
   height: 11px;
