@@ -1,24 +1,26 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: 'Inconsolata';
+  font-family: "Inconsolata";
   font-style: normal;
   font-weight: 400;
   src: local("Inconsolata"), url(font/inconsolata.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"), url(font/open_sans.woff) format("woff");
+  src: local("Open Sans"), local("OpenSans"),
+    url(font/open_sans.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url(font/open_sans_semibold.woff) format("woff");
+  src: local("Open Sans Semibold"), local("OpenSans-Semibold"),
+    url(font/open_sans_semibold.woff) format("woff");
 }
 
 @font-face {
@@ -96,6 +98,10 @@
   color: #ff4500;
 }
 
+#twitter {
+  color: #1da1f2;
+}
+
 #select_icon {
   font-size: 1.5em;
   color: #ffffff;
@@ -116,7 +122,7 @@
 
 h2 {
   text-align: center;
-  color: #FFF;
+  color: #fff;
   font-size: 26px;
   font-weight: normal;
   letter-spacing: 10px;
@@ -134,7 +140,7 @@ a {
 }
 
 #debug:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 a:hover {
@@ -150,7 +156,7 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
-  font-family: 'Inconsolata', 'migu1m', sans-serif;
+  font-family: "Inconsolata", "migu1m", sans-serif;
 }
 
 #home {
@@ -169,7 +175,7 @@ body {
 
 #home .activity_bar {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 55px;
   background-color: #333333;
   height: 77%;
@@ -177,11 +183,10 @@ body {
 }
 
 #home .setting {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  width: 55px;
-  height: 12%;
-  padding-top: 1px;
+  position: fixed;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px;
+  margin-top: 10px;
 }
 
 #home .activity_bar dl dt {
@@ -196,7 +201,7 @@ body {
   position: absolute;
   top: 0;
   left: 53px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #252526;
   width: 200px;
   margin: 0;
@@ -228,7 +233,7 @@ body {
 
 #home .side_bar dl dd {
   font-size: 11px;
-  color: #DADADA;
+  color: #dadada;
   margin: 0px;
   padding-left: 25px;
 }
@@ -239,7 +244,7 @@ body {
 
 #home .side_bar dl dd.current {
   background-color: #424242;
-  color: #FFF;
+  color: #fff;
 }
 
 #home .side_bar dl dd i {
@@ -258,12 +263,12 @@ body {
 #home .side_bar dl dd a:visited,
 #home .side_bar dl dd a:hover,
 #home .side_bar dl dd a:active {
-  color: #DADADA;
+  color: #dadada;
   text-decoration: none;
 }
 
 #home .side_bar dl dd a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #home .main {
@@ -282,7 +287,7 @@ body {
 }
 
 #home .main .current_directory {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   padding-left: 15px;
   width: 100%;
@@ -291,10 +296,10 @@ body {
 }
 
 #home .main .tabs .tab {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 11px;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   height: 20px;
   width: 100px;
   padding: 7px 9px;
@@ -329,8 +334,8 @@ body {
 #home .main .body pre code {
   margin: 0;
   padding: 0;
-  color: #EEE;
-  font-family: 'Inconsolata', sans-serif;
+  color: #eee;
+  font-family: "Inconsolata", sans-serif;
   font-size: 13px;
   line-height: 1.2;
   background: transparent;
@@ -346,10 +351,14 @@ body {
 }
 
 @keyframes flash {
-  0%,35%,75%,100% {
+  0%,
+  35%,
+  75%,
+  100% {
     opacity: 0;
   }
-  40%,70% {
+  40%,
+  70% {
     opacity: 1;
   }
 }
@@ -366,8 +375,8 @@ body {
 }
 
 #status_bar .editor_foot {
-  font-family: 'Open Sans', sans-serif;
-  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
   font-size: 11px;
   margin: 3px 15px;
   zoom: 1;
